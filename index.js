@@ -2,6 +2,7 @@ var express = require('express');
 var processor = require('./processor/module.js');
 var bodyParser = require('body-parser');
 var request = require('request');
+var async = require('async');
 var app = express();
 
 var port = process.env.PORT||3000;
