@@ -163,8 +163,9 @@ async.waterfall([
   }
   console.log("rating: ",results.user_reviews[0].review.rating);
   console.log("comments: " + results.user_reviews[0].review.review_text);
+  res.send(result);
 });
-res.send(result);
+
 })
 
 app.listen(port);
