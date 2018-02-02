@@ -34,11 +34,6 @@ app.get("/getApi", function(req, res){
     res.send(result);
 })
 
-var async = require('async');
-var express = require('express');
-var request = require('request');
-var app = express();
-
 app.get("/asynccall", function(req, res){
 async.waterfall([
   function(callback) {
