@@ -36,6 +36,7 @@ app.get("/getApi", function(req, res){
 })
 
 app.get("/asynccall", function(req, res){
+var result;
 async.waterfall([
   function(callback) {
     request({ 
@@ -84,7 +85,7 @@ async.waterfall([
                             }
                         ]
                         }
-                 callback(null, body);
+                 callback(null, bod);
             })
     },
   function(arg, callback) {
@@ -151,15 +152,19 @@ async.waterfall([
                         ],
                         "Respond to reviews via Zomato Dashboard":"https://www.zomato.com/business/claim?ref=rpg&resid=16612621#claim"
                         }
-            callback(null, body);
+            callback(null, reviews);
             })
     }
 ], function(error, results) {
   //console.log(results);
+  result = {
+      "res1":results.user_reviews[0].review.rating,
+      "res2":results.user_reviews[0].review.review_text
+  }
   console.log("rating: ",results.user_reviews[0].review.rating);
   console.log("comments: " + results.user_reviews[0].review.review_text);
 });
-res.send("correct");
+res.send(result);
 })
 
 app.listen(port);
