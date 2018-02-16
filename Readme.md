@@ -23,6 +23,7 @@ Web Summarizer uses a number of open source projects to work properly. The follo
 - [node.js](https://nodejs.org/) - evented I/O for the backend
 - [Express](https://www.npmjs.com/package/express) - fast node.js network app framework
 - [winston](https://www.npmjs.com/package/winston) - A multi-transport async logging library for node.js.
+- [MySQL](https://www.npmjs.com/package/mysql) - A relational database management system (RDBMS) for storing data and retreiving data. 
 
 ## Installation
 
