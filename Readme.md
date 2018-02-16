@@ -7,8 +7,8 @@ Express nodeJS template is ready to go for projects by which you can do API call
 ### Download and Installation
 To begin using this framework, choose one of the following options to get started:
 
-Clone the repo: `https://github.com/githubindia/express-sample-nodejs.git`.
-[Fork clone or download on Github.](https://github.com/githubindia/express-sample-nodejs)
+- Clone the repo: `https://github.com/githubindia/express-sample-nodejs.git`
+- [Fork clone or download on Github.](https://github.com/githubindia/express-sample-nodejs)
 
 ### Usage
 
