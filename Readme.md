@@ -26,7 +26,7 @@ Web Summarizer uses a number of open source projects to work properly. The follo
 
 ## Installation
 
-Web Summarizer requires Node.js v5+ to run.
+Web Summarizer requires Node.js v6+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
