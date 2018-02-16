@@ -7,7 +7,7 @@ Express nodeJS template is ready to go for projects by which you can do API call
 ### Download and Installation
 To begin using this framework, choose one of the following options to get started:
 
-Clone the repo: `https://github.com/githubindia/express-sample-nodejs.git`
+Clone the repo: `https://github.com/githubindia/express-sample-nodejs.git`.
 [Fork clone or download on Github.](https://github.com/githubindia/express-sample-nodejs)
 
 ### Usage
@@ -23,7 +23,7 @@ Web Summarizer uses a number of open source projects to work properly. The follo
 - [node.js](https://nodejs.org/) - evented I/O for the backend
 - [Express](https://www.npmjs.com/package/express) - fast node.js network app framework
 - [winston](https://www.npmjs.com/package/winston) - A multi-transport async logging library for node.js.
-- 
+
 ## Installation
 
 Web Summarizer requires Node.js v5+ to run.
