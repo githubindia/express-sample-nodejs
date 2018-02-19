@@ -18,7 +18,7 @@ You need to configure `.env` file and give databas credentials to it.
 
 ### Tech
 
-Web Summarizer uses a number of open source projects to work properly. The following tools were used:
+Template uses a number of open source projects to work properly. The following tools were used:
 
 - [node.js](https://nodejs.org/) - evented I/O for the backend
 - [Express](https://www.npmjs.com/package/express) - fast node.js network app framework
@@ -27,12 +27,12 @@ Web Summarizer uses a number of open source projects to work properly. The follo
 
 ## Installation
 
-Web Summarizer requires Node.js v6+ to run.
+This template requires Node.js v6+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
 $ cd express-sample-nodejs
-$ npm install -d
+$ npm install
 $ node index.js
 ```
 

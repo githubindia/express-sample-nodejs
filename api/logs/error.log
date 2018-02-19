@@ -1,0 +1,38 @@
+2018-02-16T10:55:10.447Z - error: CONNECTION ERROR Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\Connection.js:130:18)
+    at Object.<anonymous> (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\db\mysql.js:31:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+2018-02-16T10:55:36.247Z - error: DB ERROR, connection lost  Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\protocol\Protocol.js:201:16)
+    at Protocol._enqueue (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\protocol\Protocol.js:139:13)
+    at Connection.query (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\Connection.js:208:25)
+    at Object.getUserRecords (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\db\mysql.js:49:24)
+    at C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\routes.js:18:23
+    at Layer.handle [as handle_request] (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\express\lib\router\index.js:281:22
+2018-02-16T10:57:21.719Z - error: DB ERROR, connection lost  Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\node_modules\mysql\lib\Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (C:\Users\36022\Desktop\node_prac\express-sample-nodejs\api\db\mysql.js:17:13)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)

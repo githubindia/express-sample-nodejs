@@ -8,7 +8,7 @@ var processor = require('./src/module.js');
 var geoip = require('geoip-lite');
 
 router.get('/', function(req, res) {
-  res.sendFile(path.resolve(__dirname + '/../index.html'));
+  res.send(File(path.resolve(__dirname + '/../index.html')));
 });
 
 router.route('/api/v1/users')
